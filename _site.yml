@@ -1,0 +1,16 @@
+output_dir: "docs"
+navbar:
+   title: "My Tidy Tuesday Collection Website"
+   left:
+     - text: "Home"
+       href: index.html
+     - text: "Post 1"
+       href: post1.html
+     - text: "Post 2"
+       href: post2.html
+output:
+  html_document:
+    theme: cerulean
+    include:
+      after_body: footer.html
+    css: styles.css
